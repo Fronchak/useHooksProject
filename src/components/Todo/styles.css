@@ -1,0 +1,8 @@
+.done {
+  text-decoration: line-through;
+  color: #198754;
+}
+
+.undone {
+  color: #dc3545;
+}

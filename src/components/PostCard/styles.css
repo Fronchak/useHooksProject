@@ -1,0 +1,9 @@
+.card .card-title {
+  height: 50px;
+  overflow: hidden;
+}
+
+.card .card-text {
+  height: 150px;
+  overflow: hidden;
+}

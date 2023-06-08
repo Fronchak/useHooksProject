@@ -1,0 +1,8 @@
+.alert.alert-dark {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.alert.alert-dark:hover {
+  background: #A1A5AA;
+}

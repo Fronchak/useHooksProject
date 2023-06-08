@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #3F88BF;
+}
+
+#profile-options-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-option-container {
+  padding: 5px 10px;
+  flex: 1;
+  min-width: 220px;
+}
+
+.profile-option-container a {
+  padding: 5px 10px;
+  border: 2px solid var(--primary-color);
+  background-color: var(--primary-color);
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.5s;
+  border-radius: 100px;
+  display: block;
+  text-align: center;
+  color: #FFF;
+}
+
+.profile-option-container a.active {
+  background-color: #255173;
+  border-color: #255173;
+}
+
+.profile-option-container a:hover {
+  background-color: #FFF;
+  color: var(--primary-color);
+}
+
